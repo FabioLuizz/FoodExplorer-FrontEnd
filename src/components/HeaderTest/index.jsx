@@ -8,6 +8,8 @@ import { useAuth } from '../../hooks/auth'
 import { useState } from 'react'
 import { useEffect } from 'react'
 
+import polygono from '../../assets/images/Polygon.png'
+
 export function Header({ className, onClick, onChange, value }) {
   const { logout, isAdmin } = useAuth()
   const [ requests, setRequests ] = useState()
@@ -36,7 +38,7 @@ export function Header({ className, onClick, onChange, value }) {
         </div>
 
         <div className="logo">
-          <img src="./src/assets/images/Polygon.png " alt="Logo" />
+          <img src={polygono} alt="Logo" />
           <div className="text">
             <Link to='/' className='logo-name'>food explorer</Link>
             <p className={ isAdmin ? "" : "hide" }>admin</p>
