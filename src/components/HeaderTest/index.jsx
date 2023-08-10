@@ -36,7 +36,7 @@ export function Header({ className, onClick, onChange, value }) {
         </div>
 
         <div className="logo">
-          <img src="/src/assets/images/Polygon.png " alt="Logo" />
+          <img src="./src/assets/images/Polygon.png " alt="Logo" />
           <div className="text">
             <Link to='/' className='logo-name'>food explorer</Link>
             <p className={ isAdmin ? "" : "hide" }>admin</p>

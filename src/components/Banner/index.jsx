@@ -5,7 +5,7 @@ export function Banner() {
     <Container>
       <main>
         <div className="general">
-            <img src="/src/assets/images/banner.png"/>
+            <img src="./src/assets/images/banner.png"/>
           <section>
             <h2>Sabores inigualáveis</h2>
             <p>Sinta o cuidado do preparo com ingredientes selecionados</p>
