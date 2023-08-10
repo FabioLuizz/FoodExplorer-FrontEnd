@@ -1,0 +1,31 @@
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+
+  color: #c4c4cc;
+}
+
+div input {
+  padding: 16px 14px;
+
+  border: none;
+  outline: none;
+  border-radius: 8px;
+
+  background: #0d1d25;
+
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+
+  color: #7c7c8a;
+}
