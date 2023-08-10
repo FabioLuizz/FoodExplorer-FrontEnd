@@ -9,7 +9,7 @@ import { useState } from 'react'
 
 export function ProductCard(props, quantity) {
   const { isAdmin } = useAuth()
-  const [ icon, setIcon ] = useState('hide');
+  const [icon, setIcon] = useState('hide')
 
   const [number, setNumber] = useState(1)
 
@@ -55,7 +55,7 @@ export function ProductCard(props, quantity) {
 
       <div className="value">{'R$' + ' ' + props.value}</div>
 
-      <Increment>
+      <Increment className={isAdmin ? 'hide' : ''}>
         <button
           type="button"
           onClick={decreaseNumber}
@@ -71,7 +71,7 @@ export function ProductCard(props, quantity) {
         </button>
       </Increment>
 
-      <button className="mainButton" onClick={props.onClick}>
+      <button className={isAdmin ? 'hide' : 'mainButton'} onClick={props.onClick}>
         Incluir
       </button>
     </Container>
