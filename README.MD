@@ -1,4 +1,12 @@
-# Food Explorer
+<div align="center">
+
+\# Food Explorer
+
+
+
+Clique **[aqui](https://candid-heliotrope-55beb7.netlify.app/)** para acessar. Ou seja redirecionado para o [Back-End](https://github.com/FabioLuizz/FoodExplorer-Api)
+
+
 
 **Acesse a conta de administrador com `admin@admin.com` e senha `123456` para acessar a interface do usuário do administrador**
 
@@ -37,13 +45,13 @@ Abra [http://localhost:5173](http://localhost:5173/) com seu navegador para ver 
 
 ## Stacks
 
-**Javascript**
-
-**NodeJS**
+**HTML**
 
 **React**
 
-**Express**
+**Styled Components**
+
+**Javascript**
 
 
 
@@ -51,3 +59,4 @@ Abra [http://localhost:5173](http://localhost:5173/) com seu navegador para ver 
 
 Feito por [Fabio Luiz](https://www.linkedin.com/in/fabioluizz/)
 
+</div>
