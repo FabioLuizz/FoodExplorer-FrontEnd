@@ -1,8 +1,6 @@
 <div align="center">
 
-**Food Explorer
-
-
+<h1>Food Explorer</h1>
 
 Clique **[aqui](https://candid-heliotrope-55beb7.netlify.app/)** para acessar. Ou seja redirecionado para o [Back-End](https://github.com/FabioLuizz/FoodExplorer-Api)
 
