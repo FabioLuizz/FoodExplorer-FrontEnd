@@ -24,7 +24,6 @@ export function Product() {
 
       setData(response.data[0])
       setIngredients(response.data.ingredients)
-      console.log(ingredient.data.ingredients)
     }
 
     fetchProduct()

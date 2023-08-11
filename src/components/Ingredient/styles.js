@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 125px;
+  min-width: 100px;
   height: 24px;
 
   display: flex;
@@ -20,5 +20,9 @@ export const Container = styled.div`
 
   &:hover {
     cursor: pointer;
+  }
+
+  p {
+    margin: 0 10px;
   }
 `

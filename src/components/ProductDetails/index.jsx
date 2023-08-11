@@ -6,6 +6,8 @@ import { Ingredient } from '../Ingredient'
 import { useAuth } from '../../hooks/auth'
 import { Link } from 'react-router-dom'
 
+import icon from '../../assets/images/icon.svg'
+
 export function ProductDetails(props) {
   const { isAdmin } = useAuth()
 
@@ -44,7 +46,7 @@ export function ProductDetails(props) {
               </button>
             ) : (
               <button>
-                <img src="/src/assets/images/icon.svg" />
+                <img src={icon} />
                 {'incluir - R$ ' + props.value}
               </button>
             )}

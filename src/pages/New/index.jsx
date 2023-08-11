@@ -159,7 +159,7 @@ export function New() {
               />
             </div>
 
-            <Link to='' className="details">
+            <Link className="details">
               <button onClick={handleNewProduct}>Salvar</button>
             </Link>
           </div>

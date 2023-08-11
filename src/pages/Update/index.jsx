@@ -28,8 +28,6 @@ export function Updated() {
   const navigate = useNavigate()
   const params = useParams()
 
-  console.log(`${params.id}`)
-
   useEffect(() => {
     async function fetchProduct() {
       const response = await api.get(`/product/${params.id}`)

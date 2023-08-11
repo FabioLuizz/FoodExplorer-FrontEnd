@@ -150,6 +150,7 @@ export const Ingredients = styled.div`
   gap: 8px;
 
   flex-wrap: wrap;
+  white-space: nowrap;
 
   margin-top: 24px;
 `
