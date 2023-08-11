@@ -1,6 +1,6 @@
 <div align="center">
 
-\# Food Explorer
+**Food Explorer
 
 
 
