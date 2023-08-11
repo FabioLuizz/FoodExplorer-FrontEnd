@@ -1,5 +1,6 @@
 <div align="center">
 ## FoodExplorer
+## FoodExplorer
 
 Clique **[aqui](https://candid-heliotrope-55beb7.netlify.app/)** para acessar a aplicação. Ou seja redirecionado para o [Back-End](https://github.com/FabioLuizz/FoodExplorer-Api).
 
