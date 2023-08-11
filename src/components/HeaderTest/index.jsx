@@ -9,6 +9,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 
 import polygono from '../../assets/images/Polygon.png'
+import icon from '../../assets/images/icon.svg'
 
 export function Header({ className, onClick, onChange, value }) {
   const { logout, isAdmin } = useAuth()
@@ -67,7 +68,7 @@ export function Header({ className, onClick, onChange, value }) {
         </div>
 
         <div id='icons' className={isAdmin ? 'hide' : 'icon'}>
-          <img className={isAdmin ? 'hide' : ''} src="/src/assets/images/icon.svg" alt="Icone de nota" />
+          <img className={isAdmin ? 'hide' : ''} src={icon} alt="Icone de nota" />
           <div className="ballon">
             <p>{requests}</p>
           </div>

@@ -85,7 +85,7 @@ export function Updated() {
     alert('Produto atualizado com sucesso!')
     navigate('/')
   }
-
+  
   function handleAddIngredient() {
     setIngredients(prevState => [...prevState, newIngredient])
     setNewIngredient('')
