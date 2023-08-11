@@ -14,6 +14,8 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 
+  white-space: nowrap;
+
   padding: 0 10px;
 
   margin: 5px 5px 5px 0px ;
@@ -28,6 +30,8 @@ export const Container = styled.div`
 
     padding-left: 16px;
     padding-right: 10px;
+
+    white-space: nowrap;
 
     font-family: Roboto;
 
