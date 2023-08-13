@@ -1,3 +1,4 @@
+import React from 'react'
 import { Container, Path } from './styles'
 
 import { Footer } from '../../components/Footer'
