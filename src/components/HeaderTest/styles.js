@@ -88,6 +88,10 @@ export const Container = styled.div`
         color: ${({ theme }) => theme.COLORS.Light_100};
       }
 
+      > label:hover {
+        cursor: pointer;
+      }
+
       > input {
         width: clamp(6.4rem, -6rem + 38vw, 150rem);
 

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
   width: 100%;
@@ -18,12 +19,9 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
 
-    gap: 16px;
-
     padding-left: 28px;
 
     color: ${({theme}) => theme.COLORS.Light_100};
-
     background-color: ${({ theme }) => theme.COLORS.Dark_900};
   }
 
@@ -91,4 +89,14 @@ export const Container = styled.div`
       }
     }
   }
+`
+
+export const Path = styled(Link)`
+
+  display: flex;
+  align-items: center;
+
+  color: ${({theme}) => theme.COLORS.Light_100};
+
+  gap: 16px;
 `

@@ -34,9 +34,9 @@ export function Header({ className, onClick, onChange, value }) {
   return (
     <Container className={className}>
       <main>
-        <div className="menu hide">
+        <Link to='/menu' className="menu hide">
           <AiOutlineMenu size={24} />
-        </div>
+        </Link>
 
         <div className="logo">
           <img src={polygono} alt="Logo" />

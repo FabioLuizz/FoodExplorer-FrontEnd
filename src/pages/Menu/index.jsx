@@ -1,32 +1,38 @@
-import { Container } from './styles'
+import { Container, Path } from './styles'
 
 import { Footer } from '../../components/Footer'
 
-import { AiOutlineClose, AiOutlineSearch } from 'react-icons/ai'
+import { AiOutlineClose } from 'react-icons/ai'
+import { useAuth } from '../../hooks/auth'
+import { Link } from 'react-router-dom'
 
 export function Menu() {
+  const { logout, isAdmin } = useAuth()
+
   return (
     <Container>
       <header>
-        <AiOutlineClose size={28} />
-        <p>Voltar</p>
+        <Path to={-1}>
+          <AiOutlineClose size={28} />
+          <p>Voltar</p>
+        </Path>
       </header>
 
       <main>
-        <div className="entrys">
-          <label htmlFor="search">
-            <AiOutlineSearch size={28} />
-          </label>
-          <input
-            id="search"
-            type="text"
-            placeholder="Busque por pratos ou ingredientes"
-          />
-        </div>
-
-        <div className="navigation">
-          <button>Sair</button>
-        </div>
+        {isAdmin ? (
+          <React.Fragment>
+            <Link to="/new" className="navigation">
+              <button>Novo prato</button>
+            </Link>
+            <Link to="/" className="navigation">
+              <button onClick={logout}>Sair</button>
+            </Link>
+          </React.Fragment>
+        ) : (
+          <Link to="/" className="navigation">
+            <button onClick={logout}>Sair</button>
+          </Link>
+        )}
       </main>
 
       <Footer />

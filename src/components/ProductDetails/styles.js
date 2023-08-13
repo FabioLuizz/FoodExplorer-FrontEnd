@@ -130,6 +130,10 @@ export const Container = styled.div`
         > .ingredients {
           padding-left: 20px;
         }
+
+        > p {
+          text-align: center;
+        }
       }
     }
 
